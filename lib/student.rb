@@ -39,7 +39,7 @@ class Student
   end 
   
   def self.create(attributes)
-    student = student.new(attributes)
+    student = Student.new(attributes)
     student.save 
     student
   end 
